@@ -1,0 +1,33 @@
+﻿# General OS/IDE
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.vscode/
+.idea/
+**/__pycache__/
+
+# Unreal generated
+/Unreal/*/Binaries/
+/Unreal/*/Build/
+/Unreal/*/DerivedDataCache/
+/Unreal/*/Intermediate/
+/Unreal/*/Saved/
+/Unreal/*/.vs/
+/Unreal/*/*.sln
+/Unreal/*/Plugins/*/Intermediate/
+/Unreal/*/Plugins/*/Binaries/
+
+# Houdini caches/temp/crash
+/Houdini/**/cache/
+/Houdini/**/temp/
+/Houdini/**/crash/
+/Houdini/**/.ropeproject
+
+# PDG/TOPs default work dirs (keep outputs out of Git)
+/Houdini/**/pdgtemp/
+/Houdini/**/pdgcache/
+
+# Common DCC scratch
+**/~$*
+**/.~lock.*
